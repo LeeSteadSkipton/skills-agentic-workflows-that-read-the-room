@@ -20,16 +20,18 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 ---
 
 # Update Mona's GitHub Info website
 
 Read `notes/mona-notes.md` and the existing `site/content/github-info.md` before drafting any changes.
 
-Use `web-fetch` to review both:
+Use `web-fetch` to review these sources:
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
-Update only `site/content/github-info.md` with concise, practical updates that help developers learn GitHub faster. Keep Mona's editorial focus and existing content structure. Mention the source when an update comes from the GitHub Blog or GitHub Changelog. Do not invent announcements or include information you cannot verify from the notes or official sources.
+Update only `site/content/github-info.md` with concise, practical updates that help developers learn GitHub faster. Keep Mona's editorial focus and existing content structure. Mention the source when an update comes from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows. Do not invent announcements or include information you cannot verify from the notes or official sources.
 
 If there is a useful, verified update, propose the change by opening a draft pull request for Mona to review. Use a title that mentions Mona or GitHub Info, explain the sources and changes in the pull request description, and rely on `safe-outputs` with `create-pull-request`. Never write directly to `main` or change any other file. If there is no useful update, make no changes and do not open an empty pull request.
