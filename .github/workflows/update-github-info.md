@@ -1,6 +1,9 @@
 ---
 name: update-github-info
 description: Draft practical GitHub Info website updates for Mona from her notes and official GitHub sources.
+engine:
+  id: copilot
+  copilot-sdk: true
 on:
   workflow_dispatch:
   schedule:
